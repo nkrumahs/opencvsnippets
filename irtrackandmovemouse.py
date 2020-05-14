@@ -6,7 +6,7 @@ import win32api
 winname = "Dext IWB"
 winRed = "Red"
 winGray = "Grayscale"
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 threshHold = 255
 
 while (cap.isOpened()):
